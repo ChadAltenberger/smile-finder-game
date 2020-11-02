@@ -18,31 +18,31 @@ easyBtn.addEventListener('click', easyLevelHandler);
 normalBtn.addEventListener('click', normalLevelHandler);
 hardBtn.addEventListener('click', hardLevelHandler);
 
+const turnOffButtons = () => {
+  easyBtn.removeEventListener('click', easyLevelHandler);
+  normalBtn.removeEventListener('click', normalLevelHandler);
+  hardBtn.removeEventListener('click', hardLevelHandler);
+};
+
 // Button click handler functions
 function easyLevelHandler() {
   generateFaces(easyNumFaces);
   theLeftSide.scrollIntoView();
-  easyBtn.removeEventListener('click', easyLevelHandler);
-  normalBtn.removeEventListener('click', normalLevelHandler);
-  hardBtn.removeEventListener('click', hardLevelHandler);
+  turnOffButtons();
   numberOfFaces = 2;
 }
 
 function normalLevelHandler() {
   generateFaces(normalNumFaces);
   theLeftSide.scrollIntoView();
-  easyBtn.removeEventListener('click', easyLevelHandler);
-  normalBtn.removeEventListener('click', normalLevelHandler);
-  hardBtn.removeEventListener('click', hardLevelHandler);
+  turnOffButtons();
   numberOfFaces = 3;
 }
 
 function hardLevelHandler() {
   generateFaces(hardNumFaces);
   theLeftSide.scrollIntoView();
-  easyBtn.removeEventListener('click', easyLevelHandler);
-  normalBtn.removeEventListener('click', normalLevelHandler);
-  hardBtn.removeEventListener('click', hardLevelHandler);
+  turnOffButtons();
   numberOfFaces = 5;
 }
 
