@@ -1,5 +1,6 @@
 body {
   background-color: rgb(226, 222, 222);
+  text-align: center;
 }
 
 img {
@@ -22,13 +23,26 @@ h1 {
   text-align: center;
   font-weight: lighter;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 5em;
+  font-size: 3.5em;
   padding: 25px;
   background-color: lightseagreen;
   border: 2px solid;
 }
 
-p {
+#level {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+.conatiner {
+  display: inline-block;
+  border: 2px solid;
+  padding: 10px;
+  margin: 0;
+}
+
+#instructions {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
@@ -39,5 +53,5 @@ p {
 h3 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
