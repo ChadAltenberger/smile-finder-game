@@ -46,6 +46,16 @@ button {
   margin-bottom: 6px;
 }
 
+button:hover,
+button:active {
+  background: black;
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
 .conatiner {
   display: inline-block;
   border: 2px solid;
