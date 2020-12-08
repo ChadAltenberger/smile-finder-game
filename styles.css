@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(226, 222, 222);
   text-align: center;
+  margin: 0;
 }
 
 img {
@@ -14,8 +19,11 @@ div {
 }
 
 #rightSide {
-  left: 600px;
+  left: 625px;
   border-left: 1px solid;
+}
+
+#leftSide {
 }
 
 h1 {
@@ -33,6 +41,12 @@ h1 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
+  margin: 0 0 8px 0;
+  padding: 8px;
+}
+
+button {
+  margin-bottom: 6px;
 }
 
 .conatiner {
@@ -40,6 +54,7 @@ h1 {
   border: 2px solid;
   padding: 10px;
   margin: 0;
+  vertical-align: center;
 }
 
 #instructions {
@@ -48,6 +63,7 @@ h1 {
   font-size: 1em;
   padding-bottom: 50px;
   border-bottom: 1px solid;
+  margin-bottom: 0;
 }
 
 h3 {
