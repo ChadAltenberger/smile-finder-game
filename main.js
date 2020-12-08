@@ -50,7 +50,7 @@ function hardLevelHandler() {
 function generateFaces(number) {
   for (i = 0; i < number; i++) {
     let face = document.createElement('img');
-    face.src = 'smile.png';
+    face.src = 'smile.PNG';
 
     let randomTop = Math.floor(Math.random() * 400) + 1;
     let randomLeft = Math.floor(Math.random() * 400) + 1;
