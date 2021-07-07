@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smile-Finder Game</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
+		/>
+		<title>Smile-Finder Game</title>
 
-    <link rel="stylesheet" href="styles.css" />
-    <script src="main.js" defer></script>
-  </head>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="main.js" defer></script>
+	</head>
 
-  <body>
-    <h1>Smile-Finder</h1>
-    <span class="conatiner">
-      <p id="level">Choose difficulty level</p>
-      <button id="easy">Easy</button>
-      <button id="normal">Normal</button>
-      <button id="hard">Hard</button>
-    </span>
-    <h3>Find the extra smiley</h3>
-    <p id="instructions">Click on the extra smiley face on the left.</p>
-
-    <div id="leftSide"></div>
-    <div id="rightSide"></div>
-  </body>
+	<body>
+		<div class="container">
+			<div class="top-area">
+				<h1>Smile-Finder</h1>
+				<div class="instructions">
+					<p>Choose difficulty level</p>
+					<div class="buttons">
+						<button id="easy">Easy</button>
+						<button id="normal">Normal</button>
+						<button id="hard">Hard</button>
+					</div>
+				</div>
+				<h3>Find the extra smiley</h3>
+				<p class="instructions-text">
+					Click on the extra smiley face on the left.
+				</p>
+			</div>
+			<div class="game-area">
+				<div id="leftSide"></div>
+				<div id="rightSide"></div>
+			</div>
+		</div>
+	</body>
 </html>
