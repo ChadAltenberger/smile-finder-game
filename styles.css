@@ -29,8 +29,19 @@
 	color: #fff;
 }
 
+.heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .top-area h1 {
 	font-size: 3rem;
+}
+
+.top-area .logo {
+	position: relative;
+	margin-right: 0.3rem;
 }
 
 .top-area h3 {
